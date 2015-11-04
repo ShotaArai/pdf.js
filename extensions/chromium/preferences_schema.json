@@ -12,7 +12,7 @@
       "description": "Default zoom level of the viewer. Accepted values: 'auto', 'page-actual', 'page-width', 'page-height', 'page-fit', or a zoom level in percents.",
       "type": "string",
       "pattern": "|auto|page-actual|page-width|page-height|page-fit|[0-9]+\\.?[0-9]*(,[0-9]+\\.?[0-9]*){0,2}",
-      "default": ""
+      "default": "100"
     },
     "sidebarViewOnLoad": {
       "title": "Sidebar state on load",
@@ -70,7 +70,7 @@
       "title": "Disable text selection layer",
       "description": "Whether to disable the text selection layer.",
       "type": "boolean",
-      "default": false
+      "default": true
     },
     "useOnlyCssZoom": {
       "type": "boolean",

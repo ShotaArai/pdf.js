@@ -22,7 +22,7 @@
 //#endif
 var DEFAULT_PREFERENCES = {
   showPreviousViewOnLoad: true,
-  defaultZoomValue: '',
+  defaultZoomValue: '100',
   sidebarViewOnLoad: 0,
   enableHandToolOnLoad: false,
   enableWebGL: false,
@@ -31,7 +31,7 @@ var DEFAULT_PREFERENCES = {
   disableStream: false,
   disableAutoFetch: false,
   disableFontFace: false,
-  disableTextLayer: false,
+  disableTextLayer: true,
   useOnlyCssZoom: false,
   externalLinkTarget: 0,
 };
