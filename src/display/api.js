@@ -142,7 +142,7 @@ PDFJS.disableWebGL = (PDFJS.disableWebGL === undefined ?
  * @var {boolean}
  */
 PDFJS.disableFullscreen = (PDFJS.disableFullscreen === undefined ?
-                           false : PDFJS.disableFullscreen);
+                           true : PDFJS.disableFullscreen);
 
 /**
  * Enables CSS only zooming.
